@@ -1,0 +1,14 @@
+{
+  "abc_commit": "5d64f3b5f3bb9db6f3d77636a65e99ba3ee9d799",
+  "epfl_commit": "82d8cc6910419298e713a46644ed59fd3df53038",
+  "hdl_commit": "10c3fb51d0810ce862659211862660dcc270a6af",
+  "library_sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+  "dataset_sha256": "1b8c2dd3ce3cfadb201c3ef4b34649dcbfa1f913dd69a6c81841b7770f202731",
+  "recipe_extension_seed": 17,
+  "workers": 5,
+  "wall_seconds": 1840.432379751,
+  "circuits": 205,
+  "recipes": 120,
+  "rows": 24600,
+  "library_source_commit": "7bcaf475c884e15f674e428aa04dbf92bd0426ed"
+}

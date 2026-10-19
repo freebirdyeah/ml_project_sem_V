@@ -1,0 +1,13 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Selector} & \textbf{Runs} & \textbf{Gain (\%)} & \textbf{95\% interval} & \textbf{Regret (\%)} \\
+\midrule
+NN, 50 circuit features & 1 & 0.19 & [-0.40, 0.79] & 9.60 \\
+NN, 24 graph features & 1 & 0.44 & [-0.28, 1.10] & 9.25 \\
+NN, 50 features; top five & 5 & 5.12 & [4.54, 5.70] & 3.99 \\
+NN, 24 features; top five & 5 & 4.80 & [4.21, 5.39] & 4.35 \\
+Global top five & 5 & 5.01 & [4.50, 5.55] & 4.13 \\
+Best fixed recipe & 1 & 0.00 & [0.00, 0.00] & 9.97 \\
+Exhaustive search & 120 & 8.61 & [7.90, 9.39] & 0.00 \\
+\bottomrule
+\end{tabular}

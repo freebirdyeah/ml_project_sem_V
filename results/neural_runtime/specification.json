@@ -1,0 +1,27 @@
+{
+  "circuits": [
+    "bar",
+    "sin",
+    "square",
+    "int2float",
+    "cavlc",
+    "i2c",
+    "c499",
+    "c1355",
+    "c5315",
+    "frg1",
+    "example2",
+    "m4"
+  ],
+  "quantiles": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "seed": 0,
+  "workers": 1,
+  "dataset_sha256": "1b8c2dd3ce3cfadb201c3ef4b34649dcbfa1f913dd69a6c81841b7770f202731",
+  "timing": "Warm loaded model; serial ABC calls; sum of independently executed candidate times",
+  "python": "3.12.3",
+  "processor": "x86_64"
+}

@@ -1,0 +1,27 @@
+{
+  "candidates_verified": 3,
+  "chosen_recipe": "R033",
+  "mapped_output_equivalent": true,
+  "area": 47.88,
+  "delay": 250.88,
+  "J": 0.9116383955714888
+}
+
+{
+  "candidates_verified": 3,
+  "chosen_recipe": "R023",
+  "mapped_output_equivalent": true,
+  "area": 47.88,
+  "delay": 250.88,
+  "J": 0.9116383955714888
+}
+
+{
+  "candidates_verified": 3,
+  "chosen_recipe": "R085",
+  "mapped_output_equivalent": true,
+  "area": 47.88,
+  "delay": 250.88,
+  "J": 0.9116383955714888
+}
+

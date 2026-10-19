@@ -1,0 +1,40 @@
+{
+  "protocol": "p1",
+  "repeats": 1,
+  "models": [
+    "boosting"
+  ],
+  "lam": 0.5,
+  "target": "centered",
+  "group": "full",
+  "encoding": "full",
+  "reserved": [
+    "R003",
+    "R007",
+    "R013",
+    "R014",
+    "R016",
+    "R023",
+    "R026",
+    "R028",
+    "R031",
+    "R041",
+    "R045",
+    "R053",
+    "R057",
+    "R061",
+    "R066",
+    "R079",
+    "R083",
+    "R090",
+    "R095",
+    "R099",
+    "R106",
+    "R108",
+    "R111",
+    "R112"
+  ],
+  "train_limit": null,
+  "code_sha256": "e174869644185e403cd1f8a83cc9f96901d3bb0185fa9b7fdcdee2c290b346d4",
+  "data_sha256": "416bc955e9de9a86d87fc8a911a1e6bff3bd2911a9e04ddbacd74ba9907cc388"
+}

@@ -1,0 +1,110 @@
+# Eight-bit ripple-carry adder for an end-to-end CLI example.
+.model ripple8
+.inputs a0 a1 a2 a3 a4 a5 a6 a7 b0 b1 b2 b3 b4 b5 b6 b7
+.outputs s0 s1 s2 s3 s4 s5 s6 s7 c8
+.names c0
+.names a0 b0 x0
+10 1
+01 1
+.names x0 c0 s0
+10 1
+01 1
+.names a0 b0 g0
+11 1
+.names x0 c0 p0
+11 1
+.names g0 p0 c1
+1- 1
+-1 1
+.names a1 b1 x1
+10 1
+01 1
+.names x1 c1 s1
+10 1
+01 1
+.names a1 b1 g1
+11 1
+.names x1 c1 p1
+11 1
+.names g1 p1 c2
+1- 1
+-1 1
+.names a2 b2 x2
+10 1
+01 1
+.names x2 c2 s2
+10 1
+01 1
+.names a2 b2 g2
+11 1
+.names x2 c2 p2
+11 1
+.names g2 p2 c3
+1- 1
+-1 1
+.names a3 b3 x3
+10 1
+01 1
+.names x3 c3 s3
+10 1
+01 1
+.names a3 b3 g3
+11 1
+.names x3 c3 p3
+11 1
+.names g3 p3 c4
+1- 1
+-1 1
+.names a4 b4 x4
+10 1
+01 1
+.names x4 c4 s4
+10 1
+01 1
+.names a4 b4 g4
+11 1
+.names x4 c4 p4
+11 1
+.names g4 p4 c5
+1- 1
+-1 1
+.names a5 b5 x5
+10 1
+01 1
+.names x5 c5 s5
+10 1
+01 1
+.names a5 b5 g5
+11 1
+.names x5 c5 p5
+11 1
+.names g5 p5 c6
+1- 1
+-1 1
+.names a6 b6 x6
+10 1
+01 1
+.names x6 c6 s6
+10 1
+01 1
+.names a6 b6 g6
+11 1
+.names x6 c6 p6
+11 1
+.names g6 p6 c7
+1- 1
+-1 1
+.names a7 b7 x7
+10 1
+01 1
+.names x7 c7 s7
+10 1
+01 1
+.names a7 b7 g7
+11 1
+.names x7 c7 p7
+11 1
+.names g7 p7 c8
+1- 1
+-1 1
+.end

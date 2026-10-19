@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "outer_workers": 2,
+  "model_workers": 3,
+  "seed_rule": "repeat * 13 + fold",
+  "code_sha256": "e174869644185e403cd1f8a83cc9f96901d3bb0185fa9b7fdcdee2c290b346d4",
+  "wall_seconds": 471.883832641
+}

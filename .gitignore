@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+tools/abc/
+data/raw/epfl/
+data/raw/hdl-benchmarks/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+data/processed/checkpoints/

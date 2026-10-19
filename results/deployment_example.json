@@ -1,0 +1,88 @@
+{
+  "circuit": "/home/shaan/ml_proj/examples/ripple8.blif",
+  "model": "extra_trees",
+  "lambda_": 0.5,
+  "baseline": {
+    "area": 54.26,
+    "delay": 266.65
+  },
+  "recommendation": [
+    {
+      "recipe_id": "R033",
+      "recipe_ops": "rfz rwz rw rw rw rwz rwz b rw rs rs",
+      "predicted_relative_score": -0.015383815549431922
+    },
+    {
+      "recipe_id": "R023",
+      "recipe_ops": "rwz rw rfz rfz b rwz b rf rfz",
+      "predicted_relative_score": -0.015187734639859063
+    },
+    {
+      "recipe_id": "R008",
+      "recipe_ops": "rfz rw rfz rwz rf rsz rf b",
+      "predicted_relative_score": -0.01498196475601134
+    }
+  ],
+  "timing": {
+    "model_load_s": 0.13335412800006452,
+    "features_s": 0.7016603160000159,
+    "prediction_s": 0.039831322000281943,
+    "verification_s": 0.48437653400014824,
+    "total_warm_s": 1.225868172000446
+  },
+  "measurements": [
+    {
+      "status": "ok",
+      "aig_nodes": 52,
+      "aig_depth": 16,
+      "area": 47.88,
+      "delay": 250.88,
+      "runtime_s": 0.19524500999978045,
+      "recipe_id": "R033",
+      "recipe_ops": "rfz rwz rw rw rw rwz rwz b rw rs rs",
+      "yA": 0.8824179874677479,
+      "yD": 0.9408588036752298,
+      "J": 0.9116383955714888
+    },
+    {
+      "status": "ok",
+      "aig_nodes": 52,
+      "aig_depth": 16,
+      "area": 47.88,
+      "delay": 250.88,
+      "runtime_s": 0.14389439300066442,
+      "recipe_id": "R023",
+      "recipe_ops": "rwz rw rfz rfz b rwz b rf rfz",
+      "yA": 0.8824179874677479,
+      "yD": 0.9408588036752298,
+      "J": 0.9116383955714888
+    },
+    {
+      "status": "ok",
+      "aig_nodes": 52,
+      "aig_depth": 16,
+      "area": 47.88,
+      "delay": 250.88,
+      "runtime_s": 0.13940840100076457,
+      "recipe_id": "R008",
+      "recipe_ops": "rfz rw rfz rwz rf rsz rf b",
+      "yA": 0.8824179874677479,
+      "yD": 0.9408588036752298,
+      "J": 0.9116383955714888
+    }
+  ],
+  "best": {
+    "status": "ok",
+    "aig_nodes": 52,
+    "aig_depth": 16,
+    "area": 47.88,
+    "delay": 250.88,
+    "runtime_s": 0.19524500999978045,
+    "recipe_id": "R033",
+    "recipe_ops": "rfz rwz rw rw rw rwz rwz b rw rs rs",
+    "yA": 0.8824179874677479,
+    "yD": 0.9408588036752298,
+    "J": 0.9116383955714888
+  },
+  "netlist": "/home/shaan/ml_proj/results/example_optimized.blif"
+}

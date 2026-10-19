@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Selector} & \textbf{Runs} & \textbf{Time (s)} & \textbf{Speedup ($\times$)} & \textbf{Saved (\%)} \\
+\midrule
+Best fixed recipe & 1 & 0.406 & 110.4 & 99.1 \\
+NN, 50 features & 1 & 1.393 & 32.2 & 96.9 \\
+NN, 24 features & 1 & 0.773 & 58.0 & 98.3 \\
+Global top five & 5 & 2.221 & 20.2 & 95.0 \\
+NN, 50 features; top five & 5 & 2.917 & 15.4 & 93.5 \\
+NN, 24 features; top five & 5 & 2.312 & 19.4 & 94.8 \\
+Global top eight & 8 & 3.410 & 13.1 & 92.4 \\
+Exhaustive search & 120 & 44.839 & 1.0 & 0.0 \\
+\bottomrule
+\end{tabular}

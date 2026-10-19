@@ -1,0 +1,42 @@
+r2_f1 ridge inner gain -0.0006274651664971521 26s
+r2_f0 ridge inner gain 0.004374224702324243 26s
+r2_f1 ridge_interactions inner gain -0.006307544505682937 35s
+r2_f0 ridge_interactions inner gain -0.0010642582782842546 35s
+r2_f0 boosting inner gain -0.008760504034993821 63s
+r2_f1 boosting inner gain -0.009756082013061718 64s
+r2_f0 extra_trees inner gain 0.00535906603585443 132s
+r2_f1 extra_trees inner gain 0.0017487054135053059 133s
+r2_f0 random_forest inner gain 0.006601394140022226 153s
+r2_f1 random_forest inner gain 0.002413619838455954 154s
+COMPLETED r2_f0
+COMPLETED r2_f1
+r2_f2 ridge inner gain 0.0 199s
+r2_f2 ridge_interactions inner gain -0.004902261416337658 200s
+r2_f3 ridge inner gain 0.0 206s
+r2_f3 ridge_interactions inner gain 0.002237932394096053 207s
+r2_f2 boosting inner gain 0.005189799633428075 231s
+r2_f3 boosting inner gain 0.0001411478216197464 233s
+r2_f2 extra_trees inner gain 0.006152810918232343 293s
+r2_f3 extra_trees inner gain 0.001947164761638468 298s
+r2_f2 random_forest inner gain 0.007485348056567667 327s
+r2_f3 random_forest inner gain 0.002545731690515105 331s
+COMPLETED r2_f2
+r2_f4 ridge inner gain -0.00020465444679321936 366s
+r2_f4 ridge_interactions inner gain 0.002779845349963022 369s
+COMPLETED r2_f3
+r2_f4 boosting inner gain 0.004314695640025415 383s
+r2_f4 extra_trees inner gain 0.009730613712683895 436s
+r2_f4 random_forest inner gain 0.008118861426252405 464s
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+COMPLETED r2_f4

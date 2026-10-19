@@ -1,0 +1,275 @@
+{
+  "primary_gain": 0.7294819866543819,
+  "primary_ci": [
+    0.2535824189858736,
+    1.184390889687687
+  ],
+  "primary_p": 0.00028210184997581677,
+  "primary_regret": 9.006209923833042,
+  "model_family_counts": {
+    "random_forest": 7,
+    "boosting": 2,
+    "ridge": 2,
+    "ridge_interactions": 2,
+    "extra_trees": 2
+  },
+  "interpretation": "The confidence interval lies above zero, supporting an average gain on this circuit pool."
+}
+{
+  "nn_gain": 0.19124925605631551,
+  "nn_ci": [
+    -0.4008585038643434,
+    0.7935390062218513
+  ],
+  "nn_top5_gain": 5.119406554665361,
+  "nn_top5_regret": 3.9858686973989235,
+  "serial_one_speedup": 32.17916945195342,
+  "serial_five_speedup": 15.36999511492679
+}
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(./etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(./generated/numbers.tex) (./generated/neural_numbers.tex)
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+}] [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts
+/enc/dvips/lm/lm-rm.enc} <./figures/workflow.pdf>]
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/lmtt/m/n/10 refactor\T1/lmr/m/n/10 ,
+[3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] (./generated/pool.tex)
+[4] (./generated/example.tex) [5] [6] [7{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\T1/lmr/m/n/10 Extra-Trees, Ran-dom
+[8] [9] [10] (./generated/neural_results.tex)
+(./generated/neural_interpretation.tex [11 <./figures/dataset.pdf>])
+(./generated/neural_runtime.tex) (./generated/neural_runtime_interpretation.tex
+) [12] (./generated/main_results.tex) (./generated/main_interpretation.tex)
+[13 <./figures/neural_tradeoff.pdf>] (./generated/area_delay.tex)
+(./generated/area_delay_interpretation.tex) (./generated/ablations.tex)
+(./generated/ablation_interpretation.tex) (./generated/transfer.tex)
+(./generated/transfer_interpretation.tex) (./generated/sensitivity.tex)
+(./generated/sensitivity_interpretation.tex) [14] [15]
+(./generated/audit_summary.tex) (./generated/neural_conclusion.tex) [16]
+Underfull \hbox (badness 4927) in paragraph at lines 449--450
+[]\T1/lmr/m/n/10 The Open-ROAD Project. Nan-Gate45 Plat-form and Typical-Corner
+ Open Cell Li-brary.
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
+[]$\T1/lmtt/m/n/10 https : / / github . com / The-[]OpenROAD-[]Project / OpenRO
+AD-[]flow-[]scripts / tree / master / flow /
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\T1/lmr/m/n/10 Inputs, out-puts, AND
+
+Underfull \hbox (badness 3623) in paragraph at lines 470--470
+[]|\T1/lmr/m/n/10 Complemented-edge frac-
+[17] (./generated/environment.tex) [18] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/share/texmf/fonts/typ
+e1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (18 pages, 413413 bytes).
+Transcript written on main.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(./etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(./generated/numbers.tex) (./generated/neural_numbers.tex)
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+}] [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts
+/enc/dvips/lm/lm-rm.enc} <./figures/workflow.pdf>]
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/lmtt/m/n/10 refactor\T1/lmr/m/n/10 ,
+[3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] (./generated/pool.tex)
+[4] (./generated/example.tex) [5] [6] [7{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\T1/lmr/m/n/10 Extra-Trees, Ran-dom
+[8] [9] [10] (./generated/neural_results.tex)
+(./generated/neural_interpretation.tex [11 <./figures/dataset.pdf>])
+(./generated/neural_runtime.tex) (./generated/neural_runtime_interpretation.tex
+) [12] (./generated/main_results.tex) (./generated/main_interpretation.tex)
+[13 <./figures/neural_tradeoff.pdf>] (./generated/area_delay.tex)
+(./generated/area_delay_interpretation.tex) (./generated/ablations.tex)
+(./generated/ablation_interpretation.tex) (./generated/transfer.tex)
+(./generated/transfer_interpretation.tex) (./generated/sensitivity.tex)
+(./generated/sensitivity_interpretation.tex) [14] [15]
+(./generated/audit_summary.tex) (./generated/neural_conclusion.tex) [16]
+Underfull \hbox (badness 4927) in paragraph at lines 449--450
+[]\T1/lmr/m/n/10 The Open-ROAD Project. Nan-Gate45 Plat-form and Typical-Corner
+ Open Cell Li-brary.
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
+[]$\T1/lmtt/m/n/10 https : / / github . com / The-[]OpenROAD-[]Project / OpenRO
+AD-[]flow-[]scripts / tree / master / flow /
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\T1/lmr/m/n/10 Inputs, out-puts, AND
+
+Underfull \hbox (badness 3623) in paragraph at lines 470--470
+[]|\T1/lmr/m/n/10 Complemented-edge frac-
+[17] (./generated/environment.tex) [18] (./main.aux) )
+(see the transcript file for additional information)</usr/share/texmf/fonts/typ
+e1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (18 pages, 413413 bytes).
+Transcript written on main.log.
+/home/shaan/ml_proj/docs/final_paper.pdf
+/home/shaan/ml_proj/docs/project_submission.zip 47.96 MiB
+Submission generated.

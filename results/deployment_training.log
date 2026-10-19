@@ -1,0 +1,16 @@
+ridge inner improvement 0.0
+ridge_interactions inner improvement 0.0036758201430801244
+extra_trees inner improvement 0.007222330447923232
+random_forest inner improvement 0.0043465417287205784
+boosting inner improvement 0.006068425936472545
+{
+  "family": "extra_trees",
+  "params": {
+    "min_samples_leaf": 5
+  },
+  "margin_threshold": 0.0,
+  "lambda_": 0.5,
+  "best_fixed": "R042",
+  "library_sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+  "dataset_sha256": "1b8c2dd3ce3cfadb201c3ef4b34649dcbfa1f913dd69a6c81841b7770f202731"
+}

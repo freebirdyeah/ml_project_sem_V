@@ -1,0 +1,15 @@
+{
+  "protocol": "p1",
+  "repeats": 1,
+  "models": [
+    "boosting"
+  ],
+  "lam": 0.5,
+  "target": "centered",
+  "group": "full",
+  "encoding": "full",
+  "reserved": null,
+  "train_limit": null,
+  "code_sha256": "e174869644185e403cd1f8a83cc9f96901d3bb0185fa9b7fdcdee2c290b346d4",
+  "data_sha256": "7735dd34475925ea05a6835c50f9cbfe576563e2a088af057c985a6ca8e8d3eb"
+}

@@ -1,0 +1,76 @@
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-d_8zmxkv because the default path (/home/shaan/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+r0_f0 nn_full inner gain 0.615 epochs 25 elapsed 4.5
+r0_f0 nn_static inner gain 0.516 epochs 25 elapsed 6.8
+r0_f1 nn_full inner gain 1.037 epochs 75 elapsed 9.4
+r0_f1 nn_static inner gain 0.209 epochs 25 elapsed 11.8
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+r0_f2 nn_full inner gain -0.828 epochs 25 elapsed 14.5
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+r0_f2 nn_static inner gain -1.171 epochs 75 elapsed 17.1
+r0_f3 nn_full inner gain 0.863 epochs 25 elapsed 19.8
+r0_f3 nn_static inner gain 0.602 epochs 75 elapsed 22.3
+r0_f4 nn_full inner gain 0.294 epochs 75 elapsed 25.1
+r0_f4 nn_static inner gain 0.477 epochs 75 elapsed 27.5
+r1_f0 nn_full inner gain 1.452 epochs 25 elapsed 30.3
+r1_f0 nn_static inner gain 1.357 epochs 25 elapsed 32.8
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+r1_f1 nn_full inner gain 0.491 epochs 25 elapsed 35.3
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+r1_f1 nn_static inner gain 0.331 epochs 25 elapsed 37.8
+r1_f2 nn_full inner gain -0.39 epochs 25 elapsed 40.4
+r1_f2 nn_static inner gain -0.118 epochs 25 elapsed 43.1
+r1_f3 nn_full inner gain 0.793 epochs 200 elapsed 46.8
+r1_f3 nn_static inner gain 0.488 epochs 25 elapsed 49.9
+r1_f4 nn_full inner gain 0.904 epochs 200 elapsed 53.5
+r1_f4 nn_static inner gain 0.454 epochs 25 elapsed 57.0
+r2_f0 nn_full inner gain 0.034 epochs 25 elapsed 60.8
+r2_f0 nn_static inner gain 0.015 epochs 75 elapsed 63.8
+r2_f1 nn_full inner gain 0.521 epochs 25 elapsed 66.8
+r2_f1 nn_static inner gain 0.464 epochs 25 elapsed 69.7
+r2_f2 nn_full inner gain 0.046 epochs 25 elapsed 73.3
+r2_f2 nn_static inner gain 0.364 epochs 25 elapsed 76.0
+r2_f3 nn_full inner gain 0.188 epochs 25 elapsed 79.2
+r2_f3 nn_static inner gain 0.539 epochs 200 elapsed 82.7
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+r2_f4 nn_full inner gain 0.807 epochs 75 elapsed 86.2
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+r2_f4 nn_static inner gain 1.046 epochs 25 elapsed 90.2
+    model selector  k   n  improvement    ci_low   ci_high    median  improvement_resyn2    regret   win_pct  lose_pct   cost_s  spearman   hit_pct  gap_closed_pct
+  nn_full   global  1 205     0.000000  0.000000  0.000000  0.000000           -0.537619  9.972835  0.000000  0.000000 0.365971  0.241459  3.739837        0.000000
+  nn_full   global  2 205     2.520390  2.180988  2.887291  1.888131            2.137464  7.006006 86.829268  0.000000 1.027611  0.241459  6.178862       30.000283
+  nn_full   global  3 205     3.668368  3.263669  4.110249  3.009931            3.342508  5.681292 94.634146  0.000000 1.388780  0.241459  9.593496       43.679023
+  nn_full   global  5 205     5.013520  4.501524  5.550532  4.325326            4.719617  4.129798 97.073171  0.000000 2.111010  0.241459 15.121951       58.960531
+  nn_full   global  8 205     5.990767  5.393334  6.588478  5.106396            5.731155  3.003363 97.073171  0.000000 3.181178  0.241459 21.626016       70.093810
+  nn_full  learned  1 205     0.191249 -0.400859  0.793539  0.245372           -0.142328  9.596587 55.121951 40.000000 1.671258  0.241459  5.853659        2.792199
+  nn_full  learned  2 205     2.773157  2.198417  3.361207  2.206898            2.500434  6.643030 82.439024 15.609756 2.032645  0.241459  8.617886       32.608975
+  nn_full  learned  3 205     3.944153  3.381613  4.484117  3.289069            3.690218  5.300905 88.780488  9.268293 2.391424  0.241459 11.056911       45.922560
+  nn_full  learned  5 205     5.119407  4.544471  5.699869  4.310818            4.877756  3.985869 93.658537  3.414634 3.103463  0.241459 15.284553       59.346372
+  nn_full  learned  8 205     5.859699  5.255211  6.464949  4.906316            5.625197  3.151369 97.073171  0.975610 4.180758  0.241459 21.138211       67.707993
+  nn_full   margin  1 205     0.191249 -0.400859  0.793539  0.245372           -0.142328  9.596587 55.121951 40.000000 1.671258  0.241459  5.853659        2.792199
+  nn_full   random  1 205    -1.936811 -2.525382 -1.322832 -2.154833           -2.181400 11.830974 31.707317 67.804878 0.351859  0.241459  0.487805      -17.541978
+  nn_full   random  2 205     1.080387  0.522608  1.671009  0.168188            0.857350  8.452702 55.121951 44.390244 1.001019  0.241459  0.487805       16.013530
+  nn_full   random  3 205     2.432444  1.864802  3.024011  1.625023            2.217461  6.934653 75.121951 24.390244 1.352878  0.241459  0.487805       31.136976
+  nn_full   random  5 205     3.829650  3.249063  4.455099  3.007859            3.620044  5.364858 88.292683 11.219512 2.056597  0.241459  0.487805       46.752257
+  nn_full   random  8 205     4.891706  4.284307  5.539702  3.877719            4.683289  4.171847 92.682927  6.829268 3.112174  0.241459  0.487805       58.598357
+nn_static   global  1 205     0.000000  0.000000  0.000000  0.000000           -0.537619  9.972835  0.000000  0.000000 0.365971  0.234121  3.739837        0.000000
+nn_static   global  2 205     2.520390  2.180988  2.887291  1.888131            2.137464  7.006006 86.829268  0.000000 1.027611  0.234121  6.178862       30.000283
+nn_static   global  3 205     3.668368  3.263669  4.110249  3.009931            3.342508  5.681292 94.634146  0.000000 1.388780  0.234121  9.593496       43.679023
+nn_static   global  5 205     5.013520  4.501524  5.550532  4.325326            4.719617  4.129798 97.073171  0.000000 2.111010  0.234121 15.121951       58.960531
+nn_static   global  8 205     5.990767  5.393334  6.588478  5.106396            5.731155  3.003363 97.073171  0.000000 3.181178  0.234121 21.626016       70.093810
+nn_static  learned  1 205     0.437355 -0.276173  1.095935  0.046534            0.195162  9.253907 50.731707 44.878049 0.755493  0.234121  5.691057        5.574137
+nn_static  learned  2 205     2.706727  2.074843  3.303864  2.416931            2.471738  6.714592 79.024390 18.048780 1.118722  0.234121  8.130081       31.561267
+nn_static  learned  3 205     3.840004  3.268556  4.408963  3.181932            3.613402  5.435794 86.341463 10.731707 1.476774  0.234121 11.382114       44.642107
+nn_static  learned  5 205     4.803302  4.209136  5.387660  4.037423            4.593418  4.350410 93.170732  4.390244 2.193112  0.234121 16.747967       55.499158
+nn_static  learned  8 205     5.783917  5.194661  6.369916  4.910421            5.567635  3.228909 97.073171  0.487805 3.263813  0.234121 21.788618       67.121125
+nn_static   margin  1 205     0.437355 -0.276173  1.095935  0.046534            0.195162  9.253907 50.731707 44.878049 0.755493  0.234121  5.691057        5.574137
+nn_static   random  1 205    -1.936811 -2.525382 -1.322832 -2.154833           -2.181400 11.830974 31.707317 67.804878 0.351859  0.234121  0.487805      -17.541978
+nn_static   random  2 205     1.080387  0.522608  1.671009  0.168188            0.857350  8.452702 55.121951 44.390244 1.001019  0.234121  0.487805       16.013530
+nn_static   random  3 205     2.432444  1.864802  3.024011  1.625023            2.217461  6.934653 75.121951 24.390244 1.352878  0.234121  0.487805       31.136976
+nn_static   random  5 205     3.829650  3.249063  4.455099  3.007859            3.620044  5.364858 88.292683 11.219512 2.056597  0.234121  0.487805       46.752257
+nn_static   random  8 205     4.891706  4.284307  5.539702  3.877719            4.683289  4.171847 92.682927  6.829268 3.112174  0.234121  0.487805       58.598357

@@ -1,0 +1,84 @@
+p1 repeat=0 fold=0 ridge: inner gain 0.00%, elapsed 7s
+p1 repeat=0 fold=0 ridge_interactions: inner gain -0.22%, elapsed 9s
+p1 repeat=0 fold=0 boosting: inner gain 0.31%, elapsed 21s
+p1 repeat=0 fold=0 extra_trees: inner gain 0.54%, elapsed 77s
+p1 repeat=0 fold=0 random_forest: inner gain 0.80%, elapsed 103s
+p1 repeat=0 fold=1 ridge: inner gain 0.76%, elapsed 119s
+p1 repeat=0 fold=1 ridge_interactions: inner gain 0.54%, elapsed 121s
+p1 repeat=0 fold=1 boosting: inner gain 0.97%, elapsed 133s
+p1 repeat=0 fold=1 extra_trees: inner gain 0.85%, elapsed 188s
+p1 repeat=0 fold=1 random_forest: inner gain 0.95%, elapsed 211s
+p1 repeat=0 fold=2 ridge: inner gain -0.34%, elapsed 227s
+p1 repeat=0 fold=2 ridge_interactions: inner gain -0.94%, elapsed 230s
+p1 repeat=0 fold=2 boosting: inner gain -0.50%, elapsed 246s
+p1 repeat=0 fold=2 extra_trees: inner gain -0.41%, elapsed 297s
+p1 repeat=0 fold=2 random_forest: inner gain -0.60%, elapsed 322s
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+p1 repeat=0 fold=3 ridge: inner gain 0.00%, elapsed 336s
+p1 repeat=0 fold=3 ridge_interactions: inner gain 0.98%, elapsed 338s
+p1 repeat=0 fold=3 boosting: inner gain 0.25%, elapsed 349s
+p1 repeat=0 fold=3 extra_trees: inner gain 0.68%, elapsed 411s
+p1 repeat=0 fold=3 random_forest: inner gain 0.96%, elapsed 434s
+p1 repeat=0 fold=4 ridge: inner gain 0.00%, elapsed 453s
+p1 repeat=0 fold=4 ridge_interactions: inner gain 0.18%, elapsed 455s
+p1 repeat=0 fold=4 boosting: inner gain 0.71%, elapsed 478s
+p1 repeat=0 fold=4 extra_trees: inner gain 0.70%, elapsed 557s
+p1 repeat=0 fold=4 random_forest: inner gain 0.62%, elapsed 581s
+p1 repeat=1 fold=0 ridge: inner gain 0.24%, elapsed 599s
+p1 repeat=1 fold=0 ridge_interactions: inner gain 0.09%, elapsed 602s
+p1 repeat=1 fold=0 boosting: inner gain 1.11%, elapsed 615s
+p1 repeat=1 fold=0 extra_trees: inner gain 1.57%, elapsed 688s
+p1 repeat=1 fold=0 random_forest: inner gain 1.92%, elapsed 715s
+p1 repeat=1 fold=1 ridge: inner gain 0.31%, elapsed 738s
+p1 repeat=1 fold=1 ridge_interactions: inner gain 0.68%, elapsed 741s
+p1 repeat=1 fold=1 boosting: inner gain -0.09%, elapsed 757s
+p1 repeat=1 fold=1 extra_trees: inner gain 0.38%, elapsed 825s
+p1 repeat=1 fold=1 random_forest: inner gain 0.17%, elapsed 844s
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+/home/shaan/ml_proj/src/circuit_recipe/evaluate.py:83: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  corr=spearmanr(g.score,g.J).statistic if np.std(s)>1e-12 else 0.
+p1 repeat=1 fold=2 ridge: inner gain 0.00%, elapsed 862s
+p1 repeat=1 fold=2 ridge_interactions: inner gain -0.43%, elapsed 864s
+p1 repeat=1 fold=2 boosting: inner gain -0.24%, elapsed 877s
+p1 repeat=1 fold=2 extra_trees: inner gain -0.07%, elapsed 930s
+p1 repeat=1 fold=2 random_forest: inner gain -0.27%, elapsed 953s
+p1 repeat=1 fold=3 ridge: inner gain 0.26%, elapsed 963s
+p1 repeat=1 fold=3 ridge_interactions: inner gain 0.24%, elapsed 964s
+p1 repeat=1 fold=3 boosting: inner gain 0.02%, elapsed 971s
+p1 repeat=1 fold=3 extra_trees: inner gain 0.44%, elapsed 1003s
+p1 repeat=1 fold=3 random_forest: inner gain 0.52%, elapsed 1014s
+p1 repeat=1 fold=4 ridge: inner gain 0.00%, elapsed 1021s
+p1 repeat=1 fold=4 ridge_interactions: inner gain -0.21%, elapsed 1023s
+p1 repeat=1 fold=4 boosting: inner gain 0.05%, elapsed 1028s
+p1 repeat=1 fold=4 extra_trees: inner gain 0.46%, elapsed 1060s
+p1 repeat=1 fold=4 random_forest: inner gain 0.06%, elapsed 1072s
+/home/shaan/ml_proj/results/p1 r2_f0 cached
+/home/shaan/ml_proj/results/p1 r2_f1 cached
+/home/shaan/ml_proj/results/p1 r2_f2 cached
+/home/shaan/ml_proj/results/p1 r2_f3 cached
+/home/shaan/ml_proj/results/p1 r2_f4 cached
+/home/shaan/ml_proj/results/p2 r0_f0 cached
+/home/shaan/ml_proj/results/p3 r0_f0 cached
+/home/shaan/ml_proj/results/p3 r0_f1 cached
+/home/shaan/ml_proj/results/p3 r0_f2 cached
+/home/shaan/ml_proj/results/p3 r0_f3 cached

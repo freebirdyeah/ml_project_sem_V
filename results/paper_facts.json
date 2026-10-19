@@ -1,0 +1,17 @@
+{
+  "primary_gain": 0.7294819866543819,
+  "primary_ci": [
+    0.2535824189858736,
+    1.184390889687687
+  ],
+  "primary_p": 0.00028210184997581677,
+  "primary_regret": 9.006209923833042,
+  "model_family_counts": {
+    "random_forest": 7,
+    "boosting": 2,
+    "ridge": 2,
+    "ridge_interactions": 2,
+    "extra_trees": 2
+  },
+  "interpretation": "The confidence interval lies above zero, supporting an average gain on this circuit pool."
+}

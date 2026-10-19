@@ -1,0 +1,9 @@
+{
+  "nn_outer_fits": 30,
+  "ranking_values_reproduced": 147600,
+  "identical_classical_outer_splits": true,
+  "test_circuits_per_repeat": 205,
+  "serial_pairs_reproduced": 1440,
+  "serial_features_reproduced": true,
+  "dataset_sha256": "1b8c2dd3ce3cfadb201c3ef4b34649dcbfa1f913dd69a6c81841b7770f202731"
+}

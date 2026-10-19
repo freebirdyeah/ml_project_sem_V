@@ -1,0 +1,5 @@
+ridge seconds 1.21 inner gain 0.0
+ridge_interactions seconds 1.44 inner gain 0.0037540967095433184
+extra_trees seconds 18.92 inner gain 0.004673220605342596
+random_forest seconds 27.22 inner gain 0.006276293008741697
+boosting seconds 4.43 inner gain 0.0008959903554176047

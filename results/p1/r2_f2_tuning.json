@@ -1,0 +1,56 @@
+[
+  {
+    "model": "ridge",
+    "chosen_family": "ridge",
+    "params": {
+      "alpha": 10.0
+    },
+    "inner_gain": 0.0,
+    "margin_threshold": 0.0
+  },
+  {
+    "model": "ridge_interactions",
+    "chosen_family": "ridge_interactions",
+    "params": {
+      "alpha": 100.0
+    },
+    "inner_gain": -0.004902261416337658,
+    "margin_threshold": 0.02
+  },
+  {
+    "model": "extra_trees",
+    "chosen_family": "extra_trees",
+    "params": {
+      "min_samples_leaf": 15
+    },
+    "inner_gain": 0.006152810918232343,
+    "margin_threshold": 0.0
+  },
+  {
+    "model": "random_forest",
+    "chosen_family": "random_forest",
+    "params": {
+      "min_samples_leaf": 5
+    },
+    "inner_gain": 0.007485348056567667,
+    "margin_threshold": 0.0
+  },
+  {
+    "model": "boosting",
+    "chosen_family": "boosting",
+    "params": {
+      "num_leaves": 31
+    },
+    "inner_gain": 0.005189799633428075,
+    "margin_threshold": 0.0
+  },
+  {
+    "model": "adaptive",
+    "chosen_family": "random_forest",
+    "params": {
+      "min_samples_leaf": 5
+    },
+    "inner_gain": 0.007485348056567667,
+    "margin_threshold": 0.0
+  }
+]

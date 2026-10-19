@@ -1,0 +1,20 @@
+[
+  {
+    "model": "boosting",
+    "chosen_family": "boosting",
+    "params": {
+      "num_leaves": 15
+    },
+    "inner_gain": 0.005919432690339762,
+    "margin_threshold": 0.005
+  },
+  {
+    "model": "adaptive",
+    "chosen_family": "boosting",
+    "params": {
+      "num_leaves": 15
+    },
+    "inner_gain": 0.005919432690339762,
+    "margin_threshold": 0.005
+  }
+]

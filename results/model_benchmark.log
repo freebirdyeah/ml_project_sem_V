@@ -1,0 +1,4 @@
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-lay07op7 because the default path (/home/shaan/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+ridge seconds 1.22 inner gain 0.0
+ridge_interactions seconds 1.45 inner gain 0.0037540967095433184
+extra_trees seconds 63.83 inner gain 0.01305232387220591

@@ -1,0 +1,22 @@
+{
+  "Adaptive, one recipe": {
+    "area_gain": 0.544967461491906,
+    "delay_gain": 0.5412704488128196,
+    "both_pct": 26.82926829268293
+  },
+  "Adaptive, five recipes": {
+    "area_gain": 2.2055932909603633,
+    "delay_gain": 7.525775622674874,
+    "both_pct": 67.31707317073172
+  },
+  "Global, five recipes": {
+    "area_gain": 1.7493604809833025,
+    "delay_gain": 7.813515216794212,
+    "both_pct": 65.3658536585366
+  },
+  "resyn2": {
+    "area_gain": -2.6349611470526835,
+    "delay_gain": 1.8091062802812636,
+    "both_pct": 18.048780487804876
+  }
+}

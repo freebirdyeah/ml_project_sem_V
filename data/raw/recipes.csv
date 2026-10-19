@@ -1,0 +1,61 @@
+recipe_id,kind,name,ops,abc
+R000,known,resyn,b rw rwz b rwz b,balance;rewrite;rewrite -z;balance;rewrite -z;balance
+R001,known,resyn2,b rw rf b rw rwz b rfz rwz b,balance;rewrite;refactor;balance;rewrite;rewrite -z;balance;refactor -z;rewrite -z;balance
+R002,area,,b rf rw rsz rw rfz rsz rwz,balance;refactor;rewrite;resub -z;rewrite;refactor -z;resub -z;rewrite -z
+R003,area,,rf rw rw rf rsz rw,refactor;rewrite;rewrite;refactor;resub -z;rewrite
+R004,area,,rfz rfz rw rfz rw rwz rfz,refactor -z;refactor -z;rewrite;refactor -z;rewrite;rewrite -z;refactor -z
+R005,area,,rwz rw rw rwz rsz rwz rfz,rewrite -z;rewrite;rewrite;rewrite -z;resub -z;rewrite -z;refactor -z
+R006,area,,rwz rw rs rfz rfz rfz rfz rs rf rsz rf,rewrite -z;rewrite;resub;refactor -z;refactor -z;refactor -z;refactor -z;resub;refactor;resub -z;refactor
+R007,area,,rsz rs rwz rfz rfz rsz rs,resub -z;resub;rewrite -z;refactor -z;refactor -z;resub -z;resub
+R008,area,,rfz rw rfz rwz rf rsz rf b,refactor -z;rewrite;refactor -z;rewrite -z;refactor;resub -z;refactor;balance
+R009,area,,rs rfz rsz rwz rs rfz,resub;refactor -z;resub -z;rewrite -z;resub;refactor -z
+R010,area,,rsz rw rw rwz rs rw rs rwz rfz rs,resub -z;rewrite;rewrite;rewrite -z;resub;rewrite;resub;rewrite -z;refactor -z;resub
+R011,area,,rwz rf rs rw rf rwz rw rw rs,rewrite -z;refactor;resub;rewrite;refactor;rewrite -z;rewrite;rewrite;resub
+R012,area,,rs rf rsz rfz rwz rf rwz,resub;refactor;resub -z;refactor -z;rewrite -z;refactor;rewrite -z
+R013,area,,rsz rsz rwz rf rf rsz b,resub -z;resub -z;rewrite -z;refactor;refactor;resub -z;balance
+R014,delay,,rw rwz b rw b rf rfz,rewrite;rewrite -z;balance;rewrite;balance;refactor;refactor -z
+R015,delay,,rsz b rfz rf rfz b rw b rsz rw rfz,resub -z;balance;refactor -z;refactor;refactor -z;balance;rewrite;balance;resub -z;rewrite;refactor -z
+R016,delay,,rfz b rwz b rf b rw rf b rwz,refactor -z;balance;rewrite -z;balance;refactor;balance;rewrite;refactor;balance;rewrite -z
+R017,delay,,b rf rw rw rf b rf rf rwz,balance;refactor;rewrite;rewrite;refactor;balance;refactor;refactor;rewrite -z
+R018,delay,,rfz b rwz rfz rw rf rw,refactor -z;balance;rewrite -z;refactor -z;rewrite;refactor;rewrite
+R019,delay,,rfz rw b rf rf rfz rw rfz b rf,refactor -z;rewrite;balance;refactor;refactor;refactor -z;rewrite;refactor -z;balance;refactor
+R020,delay,,rs b rsz rs rwz rfz rfz rfz rs,resub;balance;resub -z;resub;rewrite -z;refactor -z;refactor -z;refactor -z;resub
+R021,delay,,rfz b rs rwz rwz rf b,refactor -z;balance;resub;rewrite -z;rewrite -z;refactor;balance
+R022,delay,,b rsz rfz b rsz b rf rwz b,balance;resub -z;refactor -z;balance;resub -z;balance;refactor;rewrite -z;balance
+R023,delay,,rwz rw rfz rfz b rwz b rf rfz,rewrite -z;rewrite;refactor -z;refactor -z;balance;rewrite -z;balance;refactor;refactor -z
+R024,delay,,b rs b rf rf rf rwz b,balance;resub;balance;refactor;refactor;refactor;rewrite -z;balance
+R025,delay,,rs rf rs b rfz rfz rs b,resub;refactor;resub;balance;refactor -z;refactor -z;resub;balance
+R026,mixed,,rw rfz rs rf b rs rs b,rewrite;refactor -z;resub;refactor;balance;resub;resub;balance
+R027,mixed,,rwz rs b rsz rf rf,rewrite -z;resub;balance;resub -z;refactor;refactor
+R028,mixed,,rs rf rsz rfz rwz rsz rw b,resub;refactor;resub -z;refactor -z;rewrite -z;resub -z;rewrite;balance
+R029,mixed,,rs rfz rfz b rw rwz rs rw,resub;refactor -z;refactor -z;balance;rewrite;rewrite -z;resub;rewrite
+R030,mixed,,rs rf rfz rs rfz rf,resub;refactor;refactor -z;resub;refactor -z;refactor
+R031,mixed,,rwz rs rfz rwz b rwz rwz,rewrite -z;resub;refactor -z;rewrite -z;balance;rewrite -z;rewrite -z
+R032,mixed,,rs rs rf rs rfz b,resub;resub;refactor;resub;refactor -z;balance
+R033,mixed,,rfz rwz rw rw rw rwz rwz b rw rs rs,refactor -z;rewrite -z;rewrite;rewrite;rewrite;rewrite -z;rewrite -z;balance;rewrite;resub;resub
+R034,mixed,,rwz rwz rs rfz rs b rwz,rewrite -z;rewrite -z;resub;refactor -z;resub;balance;rewrite -z
+R035,mixed,,rw rs b rsz rfz rs rf rfz,rewrite;resub;balance;resub -z;refactor -z;resub;refactor;refactor -z
+R036,mixed,,rwz rwz rsz b rsz rf b,rewrite -z;rewrite -z;resub -z;balance;resub -z;refactor;balance
+R037,mixed,,rsz b rfz rsz rs rf rwz rs rw b,resub -z;balance;refactor -z;resub -z;resub;refactor;rewrite -z;resub;rewrite;balance
+R038,random,,rw rw rs rwz b rs rw,rewrite;rewrite;resub;rewrite -z;balance;resub;rewrite
+R039,random,,rs rs rs rsz rw rs rf,resub;resub;resub;resub -z;rewrite;resub;refactor
+R040,random,,rs rsz rs rf rw rw rsz rwz rf rf rw rwz,resub;resub -z;resub;refactor;rewrite;rewrite;resub -z;rewrite -z;refactor;refactor;rewrite;rewrite -z
+R041,random,,rw rsz b rsz rs rfz rf rsz,rewrite;resub -z;balance;resub -z;resub;refactor -z;refactor;resub -z
+R042,random,,rf rfz rsz rf rs rfz rwz b rw rsz rwz rw,refactor;refactor -z;resub -z;refactor;resub;refactor -z;rewrite -z;balance;rewrite;resub -z;rewrite -z;rewrite
+R043,random,,rf rsz rw rf rw rs rsz,refactor;resub -z;rewrite;refactor;rewrite;resub;resub -z
+R044,random,,rs b rfz rs rwz rsz b rwz rwz,resub;balance;refactor -z;resub;rewrite -z;resub -z;balance;rewrite -z;rewrite -z
+R045,random,,rw rwz rwz b rfz rf b rwz rfz rfz rsz,rewrite;rewrite -z;rewrite -z;balance;refactor -z;refactor;balance;rewrite -z;refactor -z;refactor -z;resub -z
+R046,random,,rs rw rs rfz b rfz rfz rf rfz rs rwz rwz,resub;rewrite;resub;refactor -z;balance;refactor -z;refactor -z;refactor;refactor -z;resub;rewrite -z;rewrite -z
+R047,random,,rfz b rwz rwz rf rs rsz rwz,refactor -z;balance;rewrite -z;rewrite -z;refactor;resub;resub -z;rewrite -z
+R048,random,,b rsz rs rf rwz b rwz,balance;resub -z;resub;refactor;rewrite -z;balance;rewrite -z
+R049,random,,b rwz rs rwz rwz rwz rf rf rwz rw b,balance;rewrite -z;resub;rewrite -z;rewrite -z;rewrite -z;refactor;refactor;rewrite -z;rewrite;balance
+R050,random,,rwz rf rw rf rsz rs rfz rs,rewrite -z;refactor;rewrite;refactor;resub -z;resub;refactor -z;resub
+R051,random,,rw rwz rsz rw rwz rsz rs rs rs,rewrite;rewrite -z;resub -z;rewrite;rewrite -z;resub -z;resub;resub;resub
+R052,random,,rwz rsz b rsz rs rsz rs rs rfz rf rs rw,rewrite -z;resub -z;balance;resub -z;resub;resub -z;resub;resub;refactor -z;refactor;resub;rewrite
+R053,random,,rwz rf rs rwz rsz rfz rw b rfz,rewrite -z;refactor;resub;rewrite -z;resub -z;refactor -z;rewrite;balance;refactor -z
+R054,random,,b rwz rs rsz rf rfz b rw rfz rwz rsz,balance;rewrite -z;resub;resub -z;refactor;refactor -z;balance;rewrite;refactor -z;rewrite -z;resub -z
+R055,random,,rfz rw rs rfz rsz rfz rs,refactor -z;rewrite;resub;refactor -z;resub -z;refactor -z;resub
+R056,random,,rf rf rsz rfz b rwz rfz b rsz rs rs rwz,refactor;refactor;resub -z;refactor -z;balance;rewrite -z;refactor -z;balance;resub -z;resub;resub;rewrite -z
+R057,random,,rf rw rf rf rs rf rwz rwz rsz,refactor;rewrite;refactor;refactor;resub;refactor;rewrite -z;rewrite -z;resub -z
+R058,random,,rwz b rf rs rsz rsz rfz rf rfz rw rsz,rewrite -z;balance;refactor;resub;resub -z;resub -z;refactor -z;refactor;refactor -z;rewrite;resub -z
+R059,random,,rsz rwz rs rs b rs rfz rsz,resub -z;rewrite -z;resub;resub;balance;resub;refactor -z;resub -z
