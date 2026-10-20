@@ -1,0 +1,28 @@
+{
+  "primary_gain": 0.7294819866543819,
+  "primary_ci": [
+    0.2535824189858736,
+    1.184390889687687
+  ],
+  "primary_p": 0.00028210184997581677,
+  "primary_regret": 9.006209923833042,
+  "model_family_counts": {
+    "random_forest": 7,
+    "boosting": 2,
+    "ridge": 2,
+    "ridge_interactions": 2,
+    "extra_trees": 2
+  },
+  "interpretation": "The confidence interval lies above zero, supporting an average gain on this circuit pool."
+}
+{
+  "nn_gain": 0.19124925605631551,
+  "nn_ci": [
+    -0.4008585038643434,
+    0.7935390062218513
+  ],
+  "nn_top5_gain": 5.119406554665361,
+  "nn_top5_regret": 3.9858686973989235,
+  "serial_one_speedup": 32.17916945195342,
+  "serial_five_speedup": 15.36999511492679
+}

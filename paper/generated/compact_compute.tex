@@ -1,0 +1,5 @@
+Exhaustive search averaged 44.84 seconds per timing circuit. One full-NN recommendation took 1.39 seconds, including features and synthesis: 32.2 times faster, saving 96.89\% of elapsed time. Its top five took 2.92 seconds, a 15.4-fold speedup and 93.49\% saving. The graph-only NN used 0.77 seconds for one recipe.
+
+Global top-five search took 2.22 seconds and achieved similar quality. Most savings therefore come from executing fewer recipes. Neural selection adds circuit-specific ranking and feature-collection cost. The cheapest option remains the best fixed recipe. These speedups describe serial search with a loaded predictor; parallel search and a fresh model launch have different elapsed costs.
+
+Building the training table took \SweepMinutes\ minutes with five ABC workers. NN evaluation and inner tuning took 90.7 seconds; an outer-fold NN refit averaged 0.10 seconds after selecting its settings. The table is a shared offline cost for the fixed baseline and learned models. A new circuit needs only feature extraction, prediction, and the selected recipe runs.

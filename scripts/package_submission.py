@@ -17,7 +17,7 @@ for p in (ROOT/'data/processed').glob('*'):
     if p.is_file():files.append(p)
 for name in ['dataset_pilot_v1.csv','dataset_sample.csv','recipes.csv','nangate45.lib']:
     files.append(ROOT/'data/raw'/name)
-for name in ['final_paper.pdf','paper_source.zip','classical_paper.pdf','classical_paper_source.zip','literature_survey.pdf','methodology_bundle.zip']:
+for name in ['final_paper.pdf','paper_source.zip','detailed_paper.pdf','detailed_paper_source.zip','classical_paper.pdf','classical_paper_source.zip','literature_survey.pdf','methodology_bundle.zip']:
     files.append(ROOT/'docs'/name)
 inventory=pd.read_csv(ROOT/'data/processed/circuits.csv')
 files += [ROOT/p for p in inventory.path]

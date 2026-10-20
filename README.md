@@ -2,7 +2,7 @@
 
 This project trains a small neural network to recommend ABC transformation recipes for an unseen combinational circuit. The network predicts 120 scores from circuit features in one pass. It executes one recommendation or a short list, replacing a new exhaustive search with a small synthesis budget.
 
-Read [the paper](docs/final_paper.pdf) for the circuit concepts, dataset construction, experiments, and measured results. Its editable source is [paper/main.tex](paper/main.tex). Numerical tables and result paragraphs are generated from saved experiment outputs by [scripts/report.py](scripts/report.py) and [scripts/report_neural.py](scripts/report_neural.py).
+Read the [10-page paper](docs/final_paper.pdf) for the circuit concepts, dataset, models, validation, and quality–compute results. Its editable source is [paper/main.tex](paper/main.tex). The [earlier detailed paper](docs/detailed_paper.pdf) and its [LaTeX source](docs/detailed_paper_source.zip) are preserved. Numerical tables and result paragraphs are generated from saved outputs by [scripts/report.py](scripts/report.py), [scripts/report_neural.py](scripts/report_neural.py), and [scripts/report_compact.py](scripts/report_compact.py).
 
 ## Set up
 

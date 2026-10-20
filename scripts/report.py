@@ -315,5 +315,7 @@ def main():
     if (ROOT/'results/neural/COMPLETE').exists():
         from report_neural import main as neural_report
         neural_report()
+        from report_compact import main as compact_report
+        compact_report()
 
 if __name__=='__main__':main()

@@ -1,0 +1,32 @@
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Setting} & \textbf{Gain (\%)} & \textbf{95\% interval} & \textbf{Gap (\%)} \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Ablations: boosting, first five-fold repeat}} \\
+All features; centered target & 0.81 & [-0.02, 1.62] & 8.86 \\
+Static graph features & 0.00 & [-1.11, 1.02] & 9.76 \\
+Static + mapping & 0.21 & [-0.89, 1.30] & 9.47 \\
+Probe features alone & 0.51 & [-0.39, 1.44] & 9.21 \\
+Raw objective target & 0.77 & [-0.07, 1.61] & 8.87 \\
+Within-circuit rank target & 1.13 & [0.20, 2.02] & 8.42 \\
+Operation counts & 0.55 & [-0.45, 1.48] & 9.10 \\
+Counts + positions & 0.29 & [-0.86, 1.36] & 9.42 \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Family transfer: adaptive classical selector}} \\
+MCNC to other families (26) & 1.61 & [-0.06, 3.31] & 8.75 \\
+EPFL arithmetic held out (7) & 0.95 & [-2.49, 4.91] & 8.72 \\
+EPFL control held out (9) & -2.69 & [-9.61, 3.16] & 15.77 \\
+ISCAS-85 held out (10) & 0.98 & [-0.35, 2.38] & 8.72 \\
+MCNC held out (179) & 0.00 & [0.00, 0.00] & 10.34 \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Sensitivity: boosting, first five-fold repeat}} \\
+Delay-only objective & -0.79 & [-2.27, 0.70] & 18.61 \\
+Area-only objective & -0.28 & [-1.05, 0.48] & 7.41 \\
+30-recipe library & 0.36 & [-0.45, 1.15] & 6.91 \\
+60-recipe library & 0.37 & [-0.59, 1.30] & 8.05 \\
+25 training circuits & 0.19 & [-0.65, 1.09] & 9.30 \\
+50 training circuits & 0.13 & [-0.73, 0.95] & 9.41 \\
+100 training circuits & -0.62 & [-1.69, 0.37] & 9.69 \\
+24 recipes withheld from training & 0.66 & [-0.28, 1.56] & 8.95 \\
+\bottomrule
+\end{tabular}
